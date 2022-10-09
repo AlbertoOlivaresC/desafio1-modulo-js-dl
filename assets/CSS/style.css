@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .m-container {
@@ -19,34 +22,43 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(230, 194, 76);
-    width: 300px;
+    background-color: rgba(117, 130, 112, 0.78);
+    width: 360px;
     gap: 10px;
-    border-radius: 5%;
-}
-.card img{
-    border: black 1px solid;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
 }
 
 .card h2{
+    font-size: 2.4rem;
+    font-weight: lighter;
     text-align: center;
+    color: rgb(44, 68, 138);
+}
+.card p{
+    font-size: 1.25rem;
+}
+#cantidad-productos{
+    font-size: 1.25rem;
 }
 
 .btn{
     border-radius: 15px;
-    background-color: orange;
+    background-color: rgb(44, 6, 91);
+    color: white;
     width: 80%;
     align-self: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: bolder;
 }
 .btn:hover{
-    background-color: rgb(44, 6, 91);
+    background-color: orange;
     color: white;
+    font-size: 1.25rem;
 }
 
 #total-producto{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bolder;
     text-decoration: underline;
 }
@@ -56,24 +68,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 360px;
     padding: 10px;
-    background-color: antiquewhite;
-    gap: 10px
+    background-color: #162a79;
+    gap: 10px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
 }
 
 .container-total h2{
-    color: rgb(6, 6, 195);
+    /*color: rgb(6, 6, 195);*/
+    color: rgba(159, 171, 189, 0.84);
     font-size: 2rem;
 }
 
 .contenedor-oculto{
     display: none;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    color: white;
 }
 .contenedor-oculto button{
     width: 25px;
     height: 25px;
     border-radius: 50%;
+}
+i{
+    color: silver;
 }
