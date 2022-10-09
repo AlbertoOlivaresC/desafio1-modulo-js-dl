@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+.m-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-content{
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(230, 194, 76);
+    width: 300px;
+    gap: 10px;
+    border-radius: 5%;
+}
+.card img{
+    border: black 1px solid;
+}
+
+.card h2{
+    text-align: center;
+}
+
+.btn{
+    border-radius: 15px;
+    background-color: orange;
+    width: 80%;
+    align-self: center;
+}
+
+#total-producto{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.container-total{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    background-color: antiquewhite;
+    gap: 10px
+}
+
+.container-total h2{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.contenedor-oculto{
+    display: none;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.contenedor-oculto button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
